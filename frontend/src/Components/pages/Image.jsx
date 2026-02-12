@@ -58,7 +58,7 @@ const Image = () => {
 
     return (
         <div className=" sellForm">
-            <Link className='link' to='/'>&lt;&nbsp;Back to Home</Link>
+            <Link className='link' to='/Home'>&lt;&nbsp;Back to Home</Link>
             <div className="card">
                 <form onSubmit={handleSubmit}>
                     <h1 className="manual-h head-1">Add Bill Image</h1>

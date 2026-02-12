@@ -34,7 +34,7 @@ function Manual() {
 
   return (
     <div className="manual-sec section">
-      <Link className="link" to='/'>&lt;&nbsp;Back to Home</Link>
+      <Link className="link" to='/Home'>&lt;&nbsp;Back to Home</Link>
       <h1 className="manual-h head-1">Manual Bill Input</h1>
 
       <form className="form-manual form" onSubmit={handleSubmit}>
